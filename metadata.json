@@ -1,0 +1,6 @@
+{
+  "name": "MR Serviços – Despachante Veicular",
+  "description": "Despachante veicular em Piedade, Jaboatão dos Guararapes – PE. Primeira habilitação, adição de categoria, exames toxicológicos e serviços de CNH com praticidade e segurança.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

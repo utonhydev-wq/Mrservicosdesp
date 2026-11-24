@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-black: #0B0B0D;
+  --color-brand-surface: #141418;
+  --color-brand-elevated: #1C1C22;
+  --color-brand-red: #C81E1E;
+  --color-brand-red-hover: #A81616;
+  --color-brand-yellow: #EAB308;
+  --color-brand-yellow-soft: #FACC15;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #0B0B0D;
+    color: #F5F5F7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  :focus-visible {
+    outline: 2px solid #EAB308;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
